@@ -15,6 +15,11 @@ class ProductPage {
         const locator = this.page.getByText(this.productsLogo);
         await expect(locator).toBeVisible();
     }
+
+    async addToCart(productName: string) {
+        const addToCartButton = this.page.getByRole("button", { name: `Add to cart ${productName}` });
+        await addToCartButton.click();
+    }
 }
 
 export { ProductPage };
