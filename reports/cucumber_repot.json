@@ -1,0 +1,330 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "valid-login-test;verfiy-user-is-loged-in-with-valid-username-and-password",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Verfiy user is loged in with valid username and password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1619620699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am in Swag labs login page",
+            "match": {
+              "location": "tests\\stepDefinitions\\loginContext.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2030508900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\loginContext.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 873264100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "login shoul be \"Successfull\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\loginContext.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134370800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 611000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37952499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "valid-login-test;verfiy-user-is-loged-in-with-valid-username-and-password",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Verfiy user is loged in with valid username and password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1120160899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am in Swag labs login page",
+            "match": {
+              "location": "tests\\stepDefinitions\\loginContext.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 314689700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with username \"locked_out_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\loginContext.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 429082699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "login shoul be \"Successfull\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\loginContext.ts:16"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5006085700,
+              "error_message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: getByText('Products')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Products')\u001b[22m\n\n    at Proxy.<anonymous> (C:\\Users\\sanjay.kumar\\source\\learn\\atmecs-ui-e2e\\node_modules\\playwright\\lib\\matchers\\expect.js:221:24)\n    at ProductPage.isProductPage (C:\\Users\\sanjay.kumar\\source\\learn\\atmecs-ui-e2e\\tests\\pageObjects\\ProductPage.ts:16:31)\n    at CustomWorld.<anonymous> (C:\\Users\\sanjay.kumar\\source\\learn\\atmecs-ui-e2e\\tests\\stepDefinitions\\loginContext.ts:19:28)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 351676499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22318800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "valid-login-test;verfiy-user-is-loged-in-with-valid-username-and-password",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Verfiy user is loged in with valid username and password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8700009100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am in Swag labs login page",
+            "match": {
+              "location": "tests\\stepDefinitions\\loginContext.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 267064899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with username \"problem_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\loginContext.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 306333599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "login shoul be \"Successfull\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\loginContext.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217876499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 292999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48332000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "valid-login-test;verfiy-user-is-loged-in-with-valid-username-and-password",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Verfiy user is loged in with valid username and password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10815724099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am in Swag labs login page",
+            "match": {
+              "location": "tests\\stepDefinitions\\loginContext.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 507862499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with username \"performance_glitch_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\loginContext.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5633469199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "login shoul be \"Successfull\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\loginContext.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76213100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 219899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14567500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "valid-login-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Valid Login Test",
+    "tags": [],
+    "uri": "tests\\features\\loginPage.feature"
+  }
+]
